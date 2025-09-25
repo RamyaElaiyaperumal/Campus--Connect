@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Campus Connect</title>
+  <link rel="stylesheet" href="join.css">
+</head>
+<body>
+  <div class="container">
+    <form class="join-box" action="join.php" method="post">
+      <h2>Join a Club on Campus Connect</h2>
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required><br></br>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required><br></br>
+
+      <label for="club">Select Club</label>
+      <select id="club" name="club" required>
+        <option value="">--Choose Club--</option>
+        <option value="Dance Club">Dance Club</option>
+        <option value=" Communication Club"> Communication Club</option>
+        <option value="Yoga Club">Yoga Club</option>
+        <option value="Drama Club">Drama Club</option>
+        <option value="coding Club">coding  Club</option>
+        <option value="Literature club">Literature club</option>
+      </select><br></br>
+
+      <label for="year">Year</label>
+      <select id="year" name="year" required>
+        <option value="">--Select Year--</option>
+        <option value="1">1st Year</option>
+        <option value="2">2nd Year</option>
+        <option value="3">3rd Year</option>
+        <option value="4">4th Year</option>
+      </select><br></br>
+
+      <button type="submit">Join Now</button>
+    </form>
+  </div>
+</body>
+</html>
